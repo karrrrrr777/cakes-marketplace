@@ -3,6 +3,9 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
+
+// BAREV APEEE
+
 import React, { useState, useEffect, useRef } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Product, CartItem, Language, User, Order, CustomCakeOptions } from './types';
