@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Armenian:wght@400;600;700;850&family=Noto+Sans+Armenian:wght@300;400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Noto Serif Armenian", "Playfair Display", Georgia, serif;
+  --font-sans: "Noto Sans Armenian", "Plus Jakarta Sans", "Inter", sans-serif;
+  --font-mono: "Fira Code", monospace;
+  
+  --color-brand-50: #fff5f6;
+  --color-brand-100: #ffe6eb;
+  --color-brand-200: #ffccd6;
+  --color-brand-300: #ffa1b2;
+  --color-brand-400: #ff6e8c;
+  --color-brand-500: #f43f68;
+  --color-brand-600: #e11d48;
+  --color-brand-700: #be123c;
+  --color-brand-800: #9f1239;
+  --color-brand-900: #881337;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #fcfcfd;
+  color: #1a202c;
+  font-size: 16px; /* Enhanced cozy size for clean legibility */
+  line-height: 1.625;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Global larger layout utility overrides */
+p, input, textarea, select, button {
+  font-size: 14.5px; /* Boost all forms and details to be very readable */
+}
+
+/* Custom subtle scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #e5e7eb;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #d1d5db;
+}
+

@@ -1,0 +1,8 @@
+{
+  "name": "Remix: Dulce Cakes - Marketplace",
+  "description": "Premium online marketplace for gorgeous cakes, cupcakes, and traditional Armenian sweets with custom ordering, tracking, and simulated payments.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
